@@ -99,7 +99,7 @@ def query_rag_pipeline(query: str):
 # Executes LLM call (miss)
 print(query_rag_pipeline("What is context-aware caching?"))
 
-# Returns cached response immediately (semantic hit!)
+# Returns cached response immediately (semantic hit)
 print(query_rag_pipeline("Explain context-aware caching."))
 ```
 
