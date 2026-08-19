@@ -1,0 +1,42 @@
+[
+  {
+    "scenario_id": "1_pioneer",
+    "query": "What is the return policy for electronics?",
+    "expected_intent": "informational",
+    "mock_retrieved_context": ["doc_returns_v1", "doc_electronics_v1"],
+    "expected_behavior": "MISS",
+    "reason": "First time the system has ever seen this query. Caches the answer."
+  },
+  {
+    "scenario_id": "2_semantic_match",
+    "query": "How many days do I get to refund a laptop?",
+    "expected_intent": "informational",
+    "mock_retrieved_context": ["doc_returns_v1", "doc_electronics_v1"],
+    "expected_behavior": "L2 HIT",
+    "reason": "Lexically different wording, but High Semantic Similarity (>0.90) + Exact same Context retrieved + Same Intent."
+  },
+  {
+    "scenario_id": "3_intent_shift",
+    "query": "Return my electronic item immediately.",
+    "expected_intent": "action",
+    "mock_retrieved_context": ["doc_returns_v1", "doc_electronics_v1"],
+    "expected_behavior": "MISS",
+    "reason": "Very similar words to Scenario 1, but the Intent Classifier detects an 'ACTION' instead of 'INFORMATIONAL'. Cache bypasses."
+  },
+  {
+    "scenario_id": "4_context_drift",
+    "query": "Explain the return policy for electronics.",
+    "expected_intent": "informational",
+    "mock_retrieved_context": ["doc_returns_v2", "doc_electronics_v1"],
+    "expected_behavior": "MISS",
+    "reason": "Extremely high Semantic Similarity to Scenario 1, but the VectorDB pulled an updated document ('doc_returns_v2'). Context overlap threshold fails; invalidates stale cache."
+  },
+  {
+    "scenario_id": "5_exact_match",
+    "query": "What is the return policy for electronics?",
+    "expected_intent": "informational",
+    "mock_retrieved_context": [],
+    "expected_behavior": "L1 HIT",
+    "reason": "Exact string duplicate of Scenario 1. Caught by Retrieval Cache. VectorDB isn't even queried for context."
+  }
+]

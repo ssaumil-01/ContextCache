@@ -1,0 +1,79 @@
+name: CI Validation Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    services:
+      redis:
+        image: redis:7.2-alpine
+        ports:
+          - 6379:6379
+        options: >-
+          --health-cmd "redis-cli ping"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+
+    env:
+      KMP_DUPLICATE_LIB_OK: "TRUE"
+      REDIS_URL: "redis://localhost:6379/0"
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: 'pip'
+
+    - name: Install Linting & Build Tools
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install black isort mypy build twine pytest
+
+    - name: Run Format & Styling Checks
+      run: |
+        black --check .
+        isort --check-only --profile black .
+
+    - name: Run Type Checking (Mypy)
+      run: |
+        mypy rag_cache
+
+    - name: Verify Package Builds successfully
+      run: |
+        python -m build
+        twine check dist/*
+
+    - name: Install ContextCache (with all optional backends)
+      run: |
+        pip install -e .[all]
+
+    - name: Run Unit Tests (Pytest)
+      run: |
+        pytest
+
+    - name: Verify Tenant Isolation & Redis/FAISS Integrations
+      run: |
+        python examples/verify_tenant_isolation.py
+
+    - name: Verify Basic Usage Execution
+      run: |
+        python examples/basic_usage.py
+
+    - name: Verify Benchmark Framework (Calibration Sweep)
+      run: |
+        python tools/calibration/calibrate.py

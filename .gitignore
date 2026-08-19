@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.idea/
+.vscode/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# macOS System Files
+.DS_Store
+**/.DS_Store
+
+# Pytest
+.pytest_cache/
+
+# Temporary / Binary Run Files
+faiss_index.bin
+*.bin
+tools/load_testing/temp_summary.json
+
+ragcache-demo-app/

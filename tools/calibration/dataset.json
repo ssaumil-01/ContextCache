@@ -1,0 +1,122 @@
+[
+  {
+    "query_a": "What is the company refund policy?",
+    "query_b": "What is the company refund policy?",
+    "expected_label": 1,
+    "description": "Exact duplicate"
+  },
+  {
+    "query_a": "What is the company refund policy?",
+    "query_b": "How do I get a refund?",
+    "expected_label": 1,
+    "description": "Paraphrase"
+  },
+  {
+    "query_a": "Tell me about the engineering team.",
+    "query_b": "Who works in engineering?",
+    "expected_label": 1,
+    "description": "Semantic equivalent"
+  },
+  {
+    "query_a": "What is the remote work policy?",
+    "query_b": "Can I work from home?",
+    "expected_label": 1,
+    "description": "Paraphrase / Conceptually identical"
+  },
+  {
+    "query_a": "Explain the vacation policy.",
+    "query_b": "How many PTO days do I get?",
+    "expected_label": 1,
+    "description": "Semantic equivalent"
+  },
+  {
+    "query_a": "How do I reset my password?",
+    "query_b": "I forgot my password, how to recover it?",
+    "expected_label": 1,
+    "description": "Paraphrase"
+  },
+  {
+    "query_a": "What is the office dress code?",
+    "query_b": "What are we allowed to wear at work?",
+    "expected_label": 1,
+    "description": "Semantic equivalent"
+  },
+  {
+    "query_a": "How do I submit an expense report?",
+    "query_b": "Where do I file my expenses?",
+    "expected_label": 1,
+    "description": "Paraphrase"
+  },
+  {
+    "query_a": "What are the working hours?",
+    "query_b": "When do I need to be in the office?",
+    "expected_label": 1,
+    "description": "Semantic equivalent"
+  },
+  {
+    "query_a": "Is parking free at the office?",
+    "query_b": "Do I have to pay to park my car at work?",
+    "expected_label": 1,
+    "description": "Paraphrase"
+  },
+  {
+    "query_a": "What is the company refund policy?",
+    "query_b": "Tell me about the engineering team.",
+    "expected_label": 0,
+    "description": "Completely unrelated"
+  },
+  {
+    "query_a": "What is the company refund policy?",
+    "query_b": "Can I work from home?",
+    "expected_label": 0,
+    "description": "Completely unrelated"
+  },
+  {
+    "query_a": "Explain the vacation policy.",
+    "query_b": "Who works in engineering?",
+    "expected_label": 0,
+    "description": "Completely unrelated"
+  },
+  {
+    "query_a": "What is the company refund policy?",
+    "query_b": "Explain the travel expense refund procedure.",
+    "expected_label": 0,
+    "description": "Related-but-not-equivalent distractor"
+  },
+  {
+    "query_a": "What is the attendance policy?",
+    "query_b": "What is the grading policy?",
+    "expected_label": 0,
+    "description": "Different entities under similar structure"
+  },
+  {
+    "query_a": "How do I reset my password?",
+    "query_b": "How do I change my office desk?",
+    "expected_label": 0,
+    "description": "Related verbs but unrelated nouns"
+  },
+  {
+    "query_a": "How do I submit an expense report?",
+    "query_b": "Show me the quarterly financial report.",
+    "expected_label": 0,
+    "description": "Related noun (report) but different actions"
+  },
+  {
+    "query_a": "What are the working hours?",
+    "query_b": "How do I log my hours in the timesheet?",
+    "expected_label": 0,
+    "description": "Related domain (hours) but different meanings"
+  },
+  {
+    "query_a": "Is parking free at the office?",
+    "query_b": "Is coffee free at the cafeteria?",
+    "expected_label": 0,
+    "description": "Same structure but unrelated nouns"
+  },
+  {
+    "query_a": "Who works in engineering?",
+    "query_b": "Who is the head of HR?",
+    "expected_label": 0,
+    "description": "Same structure but different departments"
+  }
+]

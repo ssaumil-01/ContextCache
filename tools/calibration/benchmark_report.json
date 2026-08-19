@@ -1,0 +1,36 @@
+[
+  {
+    "store_type": "InMemory",
+    "total_queries": 1000,
+    "l1_hits": 657,
+    "l2_hits": 661,
+    "l1_hit_rate": 0.657,
+    "l2_hit_rate": 0.661,
+    "retriever_calls_saved": 657,
+    "llm_calls_saved": 661,
+    "total_runtime_sec": 511.0116670817544,
+    "avg_latency_ms": 511.0116670817544,
+    "avg_search_latency_ms": 0.9116052067070474,
+    "memory_usage_kb": 70.3173828125,
+    "p50_ms": 1.7674794944468886,
+    "p95_ms": 1500.3625458455645,
+    "p99_ms": 1501.5231013527955
+  },
+  {
+    "store_type": "FAISS",
+    "total_queries": 1000,
+    "l1_hits": 657,
+    "l2_hits": 661,
+    "l1_hit_rate": 0.657,
+    "l2_hit_rate": 0.661,
+    "retriever_calls_saved": 657,
+    "llm_calls_saved": 661,
+    "total_runtime_sec": 510.24533999974955,
+    "avg_latency_ms": 510.24533999974955,
+    "avg_search_latency_ms": 0.31130118618167585,
+    "memory_usage_kb": 34.125,
+    "p50_ms": 0.6761870026821271,
+    "p95_ms": 1500.1814624847611,
+    "p99_ms": 1501.8875006682356
+  }
+]

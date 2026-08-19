@@ -1,0 +1,70 @@
+# ContextCache Configuration File Example
+
+# -------------------------------------------------------------
+# Redis Configuration
+# -------------------------------------------------------------
+# The URL of the Redis connection instance (used for L1 cache and mapping directories)
+redis_url: "redis://localhost:6379/0"
+
+# -------------------------------------------------------------
+# FAISS Vector Index Configuration
+# -------------------------------------------------------------
+# Set to true to utilize a local high-performance FAISS Vector Database for L2 semantic caching
+use_faiss: false
+
+# File path to save and read the serialized FAISS index
+faiss_index_filepath: "faiss_index.bin"
+
+# Dimensions of the vector embeddings used (defaults to 384 for all-MiniLM-L6-v2)
+faiss_dimension: 384
+
+# -------------------------------------------------------------
+# Cache TTL (Time-To-Live)
+# -------------------------------------------------------------
+# Expiry window for exact-string retrieval matches (L1 Cache) in seconds. Default: 1 day (86400)
+l1_ttl_seconds: 86400
+
+# Expiry window for semantic caching matches (L2 Cache) in seconds. Default: 14 days (1209600)
+l2_ttl_seconds: 1209600
+
+# -------------------------------------------------------------
+# Decision Engine / Cache Validation Thresholds
+# -------------------------------------------------------------
+# Minimum similarity score required to trigger a semantic cache hit [0.0 to 1.0]
+min_embedding_similarity: 0.85
+
+# Minimum document ID overlap (Jaccard similarity) required to validate contextual correctness [0.0 to 1.0]
+min_document_overlap: 0.85
+
+# Validation mode for matching semantic intent ("strict", "relaxed", or "compatible")
+intent_match_mode: "compatible"
+
+# Intent types that bypass caching completely and execute downstream systems (e.g. LLM calls) directly
+bypass_intents:
+  - "action"
+
+# Matrix mapping an incoming user intent to compatible cached intents
+intent_compatibility_matrix:
+  informational:
+    - "informational"
+    - "analytical"
+  analytical:
+    - "analytical"
+
+# -------------------------------------------------------------
+# Tenant Isolation Settings
+# -------------------------------------------------------------
+# Optional default tenant ID to namespace and isolate cache entries
+tenant_id: null
+
+# -------------------------------------------------------------
+# Telemetry & Setup
+# -------------------------------------------------------------
+# Port to host the local Prometheus metrics server. Set to null to disable the endpoint.
+prometheus_port: null
+
+# Set to true to load local sentence-transformers models offline, or false to use a MockEmbedder
+use_local_embeddings: true
+
+# Set to true to print detailed validation and matching debug logs to stdout
+debug: false

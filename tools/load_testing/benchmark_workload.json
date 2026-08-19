@@ -1,0 +1,4002 @@
+[
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the rules for posting on personal social media?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "Who wrote the play Hamlet?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the national flag of Canada?",
+    "type": "novel"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "How does GPS tracking function?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "What beverages are free at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I change my account password?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many PTO days do I get?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "Who was the first president of the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "How do guests sign in at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "Request new IT equipment process.",
+    "type": "semantic"
+  },
+  {
+    "query": "Enroll in health insurance guide.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "When do I need to be in the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Can you describe the engineering team structure?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of the United Kingdom?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Who leads the Human Resources department?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the definition of a CPU?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the chief people officer?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "What is our paid time off policy?",
+    "type": "semantic"
+  },
+  {
+    "query": "What does the engineering department do?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote The Lord of the Rings?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "Is maternity leave paid?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I enroll in the medical plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "HQ location address.",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I submit my hours?",
+    "type": "semantic"
+  },
+  {
+    "query": "Request new IT equipment process.",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many states are in the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I schedule a meeting room in Outlook?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Portugal?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the room booking process?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "Who works in engineering?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the procedure for a password reset?",
+    "type": "semantic"
+  },
+  {
+    "query": "When do performance reviews occur?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the visitor guidelines?",
+    "type": "semantic"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Spain?",
+    "type": "novel"
+  },
+  {
+    "query": "HQ location address.",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain our remote working guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "Do I have to pay to park my car at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How does a barcode scanner work?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is the head of HR?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of France?",
+    "type": "novel"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the largest ocean on Earth?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the room booking process?",
+    "type": "semantic"
+  },
+  {
+    "query": "Do we get free parking passes?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the square root of 144?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of South Africa?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the rules for posting on personal social media?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the rules for posting on personal social media?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the standard work schedule?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the procedure for a password reset?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the definition of a prime number?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the fastest animal on land?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the tallest mountain in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the procedure for a password reset?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "When does the workday start and end?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "Can I work from home?",
+    "type": "semantic"
+  },
+  {
+    "query": "How are refunds handled here?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company policy on vacations?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Submit expense report steps.",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the CEO of Apple?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the process for visitor entry?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Germany?",
+    "type": "novel"
+  },
+  {
+    "query": "When do we have the next all-hands?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I read about refunds?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Colombia?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the room booking process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Are there partnerships with discounts for staff?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the tallest building in New York?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Italy?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the address of the company headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote The Catcher in the Rye?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the definition of photosynthesis?",
+    "type": "novel"
+  },
+  {
+    "query": "Who was the first man to step on the Moon?",
+    "type": "novel"
+  },
+  {
+    "query": "How are annual reviews conducted?",
+    "type": "semantic"
+  },
+  {
+    "query": "Can you tell me the name of the HR director?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest island in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Japan?",
+    "type": "novel"
+  },
+  {
+    "query": "Do I have to pay to park my car at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are drinks free in the cafeteria?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Who was Charles Darwin?",
+    "type": "novel"
+  },
+  {
+    "query": "Describe the company's core values.",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who was Marie Curie?",
+    "type": "novel"
+  },
+  {
+    "query": "What beverages are free at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many continents are there on Earth?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "Is remote work allowed?",
+    "type": "semantic"
+  },
+  {
+    "query": "Enroll in health insurance guide.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the parking situation at the headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "How are refunds handled here?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "What are our cultural pillars?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "How do batteries store electrical energy?",
+    "type": "novel"
+  },
+  {
+    "query": "Can you describe the engineering team structure?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the standard work schedule?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest lake in North America?",
+    "type": "novel"
+  },
+  {
+    "query": "How many minutes are in a day?",
+    "type": "novel"
+  },
+  {
+    "query": "Who was Charles Darwin?",
+    "type": "novel"
+  },
+  {
+    "query": "How does a database index speed up queries?",
+    "type": "novel"
+  },
+  {
+    "query": "What hours are employees expected to work?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does an engine cooling system work?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do computers store data in binary?",
+    "type": "novel"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "Submit expense report steps.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on pregnancy leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How does GPS tracking function?",
+    "type": "novel"
+  },
+  {
+    "query": "How does the work from home policy function?",
+    "type": "semantic"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of South Africa?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain our organizational values.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the standard work schedule?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the social media guidelines for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I submit my hours?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of South Korea?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the health insurance signup process?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many hours are in a week?",
+    "type": "novel"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Denmark?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are we allowed to wear at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a refrigerator keep food cold?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the health insurance signup process?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the rules for product refunds?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who was Isaac Newton?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the main language spoken in Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "Who runs our HR team?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "Who wrote Romeo and Juliet?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the timesheet submission process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the distance between the Earth and the Moon?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit a candidate referral?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the definition of mitosis?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the employee dress code guideline?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Italy?",
+    "type": "novel"
+  },
+  {
+    "query": "Who wrote the Odyssey?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Who was Marie Curie?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the difference between TCP and UDP?",
+    "type": "novel"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the tallest mountain in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get free parking passes?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "How are refunds handled here?",
+    "type": "semantic"
+  },
+  {
+    "query": "How are annual reviews conducted?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there free parking spaces for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main element in the Sun?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Portugal?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Australia?",
+    "type": "novel"
+  },
+  {
+    "query": "Where are we headquartered?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote The Lord of the Rings?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "Schedule for the next company-wide meeting.",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the job referral program.",
+    "type": "semantic"
+  },
+  {
+    "query": "How are refunds handled here?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How are annual reviews conducted?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "How does the work from home policy function?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "Is remote work allowed?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main language spoken in Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "What beverages are free at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "How does a touch screen detect inputs?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain our remote working guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the national animal of India?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the definition of a glacier?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get corporate discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I submit a candidate referral?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Greece?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the tallest tree species in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Germany?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a dress code policy?",
+    "type": "semantic"
+  },
+  {
+    "query": "Describe the feedback cycle process.",
+    "type": "semantic"
+  },
+  {
+    "query": "Who runs our HR team?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "How does office parking work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I read about refunds?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the definition of a prime number?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Who invented the telephone?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "Is there a town hall scheduled soon?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where are we headquartered?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "How do batteries store electrical energy?",
+    "type": "novel"
+  },
+  {
+    "query": "What travel expenses are covered by the company?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the primary colors in painting?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of South Africa?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get free coffee at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do self-evaluations work here?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "How do self-evaluations work here?",
+    "type": "semantic"
+  },
+  {
+    "query": "Can I wear casual clothes to the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Are jeans allowed in the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the author of To Kill a Mockingbird?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of Russia?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the employee dress code guideline?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I enroll in the medical plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main element in water?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I unlock my account with a new password?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main language spoken in Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "Are there partnerships with discounts for staff?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the head of HR?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the rules for product refunds?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the tallest tree species in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Germany?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of South Korea?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the company policy on pregnancy leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of Russia?",
+    "type": "novel"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I get reimbursed for travel?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the definition of a prime number?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the primary crop grown in Iowa?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How does a database index speed up queries?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is in charge of HR?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of France?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I submit a candidate referral?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the standard work schedule?",
+    "type": "semantic"
+  },
+  {
+    "query": "Do I have to pay to park my car at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "What date is the next all-hands?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "How is the engineering organization set up?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I add dependents to my health plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who runs our HR team?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote Romeo and Juliet?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company mission and values?",
+    "type": "semantic"
+  },
+  {
+    "query": "Enroll in health insurance guide.",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a database index speed up queries?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the performance evaluation guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I unlock my account with a new password?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "How many teeth does an adult human have?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the main element in the Sun?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the speed of light in a vacuum?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the company policy on pregnancy leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main ingredient in chocolate?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the address of the company headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the speed of light in a vacuum?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Portugal?",
+    "type": "novel"
+  },
+  {
+    "query": "How does GPS tracking function?",
+    "type": "novel"
+  },
+  {
+    "query": "How many days are in a leap year?",
+    "type": "novel"
+  },
+  {
+    "query": "Can you explain the refund process?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many states are in the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "How many states are in the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "How does a refrigerator keep food cold?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Norway?",
+    "type": "novel"
+  },
+  {
+    "query": "How do self-evaluations work here?",
+    "type": "semantic"
+  },
+  {
+    "query": "HQ location address.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the population of the United Kingdom?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the largest lake in North America?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the tallest building in New York?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "Are there free parking spaces for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the rules for WFH?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the employee dress code guideline?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who was Albert Einstein?",
+    "type": "novel"
+  },
+  {
+    "query": "What date is the next all-hands?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are jeans allowed in the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Can I wear casual clothes to the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Turkey?",
+    "type": "novel"
+  },
+  {
+    "query": "Who invented the printing press?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is the chief people officer?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is remote work allowed?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where is our main office located?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the standard work schedule?",
+    "type": "semantic"
+  },
+  {
+    "query": "Can you describe the engineering team structure?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the timesheet submission process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is HTTP status code 404?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of Switzerland?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is our main office located?",
+    "type": "semantic"
+  },
+  {
+    "query": "When do I need to be in the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the square root of 144?",
+    "type": "novel"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "Can I wear casual clothes to the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "Who was the first president of the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "How does an electric motor work?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the largest land mammal?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the chief people officer?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the author of The Great Gatsby?",
+    "type": "novel"
+  },
+  {
+    "query": "Describe our internet and social media policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "How many PTO days do I get?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many bones are in the adult human body?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the parking situation at the headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are our core office hours?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the boiling point of water in Celsius?",
+    "type": "novel"
+  },
+  {
+    "query": "Reserve a meeting space instructions.",
+    "type": "semantic"
+  },
+  {
+    "query": "When does the workday start and end?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest country in the world by land area?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the author of Harry Potter?",
+    "type": "novel"
+  },
+  {
+    "query": "How do batteries store electrical energy?",
+    "type": "novel"
+  },
+  {
+    "query": "List of employee corporate discounts.",
+    "type": "semantic"
+  },
+  {
+    "query": "Is there free coffee for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is our paid time off policy?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the process for visitor entry?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "My laptop is slow, how do I get a new one?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the rules for taking time off.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of South Korea?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Describe the feedback cycle process.",
+    "type": "semantic"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the chief people officer?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of China?",
+    "type": "novel"
+  },
+  {
+    "query": "How does an engine cooling system work?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of Japan?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the visitor guidelines?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "How are annual reviews conducted?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a refrigerator keep food cold?",
+    "type": "novel"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Portugal?",
+    "type": "novel"
+  },
+  {
+    "query": "How many hours are in a week?",
+    "type": "novel"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "Who was Albert Einstein?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get free parking passes?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote the play Hamlet?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I recommend a friend for a role?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I submit a candidate referral?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of India?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the parental leave guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How many players are on a soccer field?",
+    "type": "novel"
+  },
+  {
+    "query": "Are employees allowed to talk about work on Twitter?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Egypt?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is the head of HR?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the employee dress code guideline?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Who discovered gravity?",
+    "type": "novel"
+  },
+  {
+    "query": "Submit expense report steps.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Denmark?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the employee dress code guideline?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote Romeo and Juliet?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "What is HTTP status code 404?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How do self-evaluations work here?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the chief people officer?",
+    "type": "semantic"
+  },
+  {
+    "query": "My laptop is slow, how do I get a new one?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the room booking process?",
+    "type": "semantic"
+  },
+  {
+    "query": "IT hardware provisioning policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on pregnancy leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "What date is the next all-hands?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the tallest building in New York?",
+    "type": "novel"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "Can you describe the engineering team structure?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote The Catcher in the Rye?",
+    "type": "novel"
+  },
+  {
+    "query": "Who was Charles Darwin?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the primary crop grown in Iowa?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the performance evaluation guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a touch screen detect inputs?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the parental leave guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the social media guidelines for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many PTO days do I get?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the author of To Kill a Mockingbird?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the business travel policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Germany?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I unlock my account with a new password?",
+    "type": "semantic"
+  },
+  {
+    "query": "Submit expense report steps.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I access employee perks and discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the fastest animal on land?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get corporate discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the primary function of red blood cells?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of France?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "When do we have the next all-hands?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the distance between the Earth and the Moon?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Canada?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the parking situation at the headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest lake in North America?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I unlock my account with a new password?",
+    "type": "semantic"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the tallest building in New York?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the employee referral process?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "How many players are on a soccer field?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I get a refund?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is in charge of HR?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Describe the feedback cycle process.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is on the dev team?",
+    "type": "semantic"
+  },
+  {
+    "query": "What does the company stand for?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of South Africa?",
+    "type": "novel"
+  },
+  {
+    "query": "Who invented the telephone?",
+    "type": "novel"
+  },
+  {
+    "query": "Is maternity leave paid?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of the United Kingdom?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is the author of To Kill a Mockingbird?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the author of The Great Gatsby?",
+    "type": "novel"
+  },
+  {
+    "query": "How many states are in the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the longest river in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "Where can I select my health benefits?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "Are there partnerships with discounts for staff?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on vacations?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main crop of Kansas?",
+    "type": "novel"
+  },
+  {
+    "query": "How does office parking work?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "How does a solar panel generate electricity?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the tallest tree species in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is there free coffee for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is there free coffee for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I change my account password?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the difference between TCP and UDP?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a town hall scheduled soon?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Egypt?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I schedule a meeting room in Outlook?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "Who wrote Pride and Prejudice?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the rules for taking time off.",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "Who was Isaac Newton?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of Brazil?",
+    "type": "novel"
+  },
+  {
+    "query": "How does a database index speed up queries?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I enroll in the medical plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the author of Harry Potter?",
+    "type": "novel"
+  },
+  {
+    "query": "How are annual reviews conducted?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on vacations?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of South Africa?",
+    "type": "novel"
+  },
+  {
+    "query": "Who founded the company Microsoft?",
+    "type": "novel"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I enroll in the medical plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "Describe the company's core values.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "Who wrote Pride and Prejudice?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "Are employees allowed to talk about work on Twitter?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there free parking spaces for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do self-evaluations work here?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote the play Hamlet?",
+    "type": "novel"
+  },
+  {
+    "query": "Who leads the Human Resources department?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I fill out my timesheet?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Turkey?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does office parking work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the definition of a CPU?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the largest ocean on Earth?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "Who developed the theory of relativity?",
+    "type": "novel"
+  },
+  {
+    "query": "How does a refrigerator keep food cold?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "Who was the first man to step on the Moon?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is the head of HR?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "Who wrote The Lord of the Rings?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "How does a refrigerator keep food cold?",
+    "type": "novel"
+  },
+  {
+    "query": "What does the engineering department do?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the employee town hall meeting?",
+    "type": "semantic"
+  },
+  {
+    "query": "Submit expense report steps.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of Brazil?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the procedure for a password reset?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of Brazil?",
+    "type": "novel"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the rules for WFH?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the chemical symbol for gold?",
+    "type": "novel"
+  },
+  {
+    "query": "Who discovered gravity?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "How long is maternity leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "Submit expense report steps.",
+    "type": "semantic"
+  },
+  {
+    "query": "When do performance reviews occur?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "Do we have to pay for coffee?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the national animal of India?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the author of Harry Potter?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I get reimbursed for travel?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote Romeo and Juliet?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Canada?",
+    "type": "novel"
+  },
+  {
+    "query": "How many PTO days do I get?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "Where do I enter my weekly work hours?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of India?",
+    "type": "novel"
+  },
+  {
+    "query": "Who developed the theory of relativity?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Japan?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the longest river in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "How are travel costs reimbursed?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where is the corporate office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I read about refunds?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a barcode scanner work?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the main element in the Sun?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the boiling point of water in Celsius?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a solar panel generate electricity?",
+    "type": "novel"
+  },
+  {
+    "query": "Who was Charles Darwin?",
+    "type": "novel"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "Schedule for the next company-wide meeting.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Japan?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the health insurance signup process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the rules for WFH?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the definition of a prime number?",
+    "type": "novel"
+  },
+  {
+    "query": "How does a database index speed up queries?",
+    "type": "novel"
+  },
+  {
+    "query": "Instructions for loging hours.",
+    "type": "semantic"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the atomic number of carbon?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "How does GPS tracking function?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the difference between TCP and UDP?",
+    "type": "novel"
+  },
+  {
+    "query": "Is remote work allowed?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I access employee perks and discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "How many seconds are in an hour?",
+    "type": "novel"
+  },
+  {
+    "query": "Is maternity leave paid?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the process for visitor entry?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I enroll in the medical plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main ingredient in chocolate?",
+    "type": "novel"
+  },
+  {
+    "query": "How many PTO days do I get?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I get reimbursed for travel?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of France?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the definition of mitosis?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is on the dev team?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest desert in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "When does the workday start and end?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many continents are there on Earth?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "Describe our internet and social media policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the main language spoken in Mexico?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I fill out my timesheet?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Is there a town hall scheduled soon?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "How does a refrigerator keep food cold?",
+    "type": "novel"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "How does office parking work?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who invented the telephone?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the parental leave guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I get a refund?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote the Odyssey?",
+    "type": "novel"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do self-evaluations work here?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "How do batteries store electrical energy?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I fill out my timesheet?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the primary colors in painting?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the social media guidelines for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I enroll in the medical plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the CEO of Apple?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the currency of South Korea?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I get a replacement computer?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote Romeo and Juliet?",
+    "type": "novel"
+  },
+  {
+    "query": "How does a barcode scanner work?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the speed of light in a vacuum?",
+    "type": "novel"
+  },
+  {
+    "query": "How many seconds are in an hour?",
+    "type": "novel"
+  },
+  {
+    "query": "Can you tell me the name of the HR director?",
+    "type": "semantic"
+  },
+  {
+    "query": "List of employee corporate discounts.",
+    "type": "semantic"
+  },
+  {
+    "query": "Is there a town hall scheduled soon?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who painted the Mona Lisa?",
+    "type": "novel"
+  },
+  {
+    "query": "What is our paid time off policy?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who was Isaac Newton?",
+    "type": "novel"
+  },
+  {
+    "query": "How does photosynthesis work?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the atomic number of carbon?",
+    "type": "novel"
+  },
+  {
+    "query": "How do guests sign in at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the tallest building in New York?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is our main office located?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I add dependents to my health plan?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do guests sign in at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Describe our internet and social media policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "Who is the author of The Great Gatsby?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "How many minutes are in a day?",
+    "type": "novel"
+  },
+  {
+    "query": "Where can I select my health benefits?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are we allowed to wear at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of the United Kingdom?",
+    "type": "novel"
+  },
+  {
+    "query": "Who wrote the book 1984?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we have to pay for coffee?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of Switzerland?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the difference between TCP and UDP?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the performance evaluation guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request vacation time?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where can I change my account password?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest land mammal?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "What does the engineering department do?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the employee referral process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the health insurance signup process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the social media guidelines for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I access employee perks and discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who was Marie Curie?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "What are we allowed to wear at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of China?",
+    "type": "novel"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "Where are we headquartered?",
+    "type": "semantic"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "How are travel costs reimbursed?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the limit for travel expense claims?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is remote work allowed?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the job referral program.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are our core office hours?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of Japan?",
+    "type": "novel"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "How are annual reviews conducted?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the limit for travel expense claims?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Argentina?",
+    "type": "novel"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the primary colors in painting?",
+    "type": "novel"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "What are we allowed to wear at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "Explain the business travel policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I get reimbursed for travel?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Who painted the Mona Lisa?",
+    "type": "novel"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "Enroll in health insurance guide.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "How do airplanes fly?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the boiling point of water in Celsius?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the company refund policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the process to claim business expenses?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "How many days are in a leap year?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a town hall scheduled soon?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "Instructions for loging hours.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Request new IT equipment process.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Colombia?",
+    "type": "novel"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "How are travel costs reimbursed?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Italy?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the business travel policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote the Iliad?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I log my hours in the timesheet?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "Reserve a meeting space instructions.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the rules for WFH?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where is the corporate office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "How do guests sign in at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "Who discovered gravity?",
+    "type": "novel"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "How do airplanes fly?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "Are employees allowed to talk about work on Twitter?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the head of HR?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I get reimbursed for travel?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I access employee perks and discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "When do performance reviews occur?",
+    "type": "semantic"
+  },
+  {
+    "query": "Enroll in health insurance guide.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the atomic number of carbon?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the main element in water?",
+    "type": "novel"
+  },
+  {
+    "query": "Do I have to pay to park my car at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "I forgot my password, how to recover it?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the standard work schedule?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "How do airplanes fly?",
+    "type": "novel"
+  },
+  {
+    "query": "How many bones are in the adult human body?",
+    "type": "novel"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "Is maternity leave paid?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does office parking work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the rules for posting on personal social media?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "Visitor badge policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "Instructions for loging hours.",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "How many states are in the United States?",
+    "type": "novel"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I check conference room availability?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are our cultural pillars?",
+    "type": "semantic"
+  },
+  {
+    "query": "Describe the feedback cycle process.",
+    "type": "semantic"
+  },
+  {
+    "query": "How many seconds are in an hour?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Denmark?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the process for hardware upgrades?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the parking situation at the headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How does the work from home policy function?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "What causes earthquakes to occur?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "Who runs our HR team?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are there any employee discounts available?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "How do I reset my password?",
+    "type": "exact"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "What does the company stand for?",
+    "type": "semantic"
+  },
+  {
+    "query": "How long is maternity leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is on the dev team?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of France?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the limit for travel expense claims?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the definition of mitosis?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I get a replacement computer?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the security procedures for visitors?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the performance evaluation guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "My laptop is slow, how do I get a new one?",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the employee town hall meeting?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does office parking work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the process for hardware upgrades?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "Request new IT equipment process.",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the head of HR?",
+    "type": "exact"
+  },
+  {
+    "query": "My laptop is slow, how do I get a new one?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the policy on social media usage?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the health insurance signup process?",
+    "type": "semantic"
+  },
+  {
+    "query": "Are jeans allowed in the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who wrote The Catcher in the Rye?",
+    "type": "novel"
+  },
+  {
+    "query": "Is maternity leave paid?",
+    "type": "semantic"
+  },
+  {
+    "query": "Instructions for loging hours.",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the tallest tree species in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "Who wrote the Odyssey?",
+    "type": "novel"
+  },
+  {
+    "query": "My laptop is slow, how do I get a new one?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the health insurance signup process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the social media guidelines for employees?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I request a new laptop?",
+    "type": "exact"
+  },
+  {
+    "query": "Are drinks free in the cafeteria?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "Can you explain the refund process?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Russia?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the largest country in the world by land area?",
+    "type": "novel"
+  },
+  {
+    "query": "Who is the author of To Kill a Mockingbird?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the job referral program.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do computers store data in binary?",
+    "type": "novel"
+  },
+  {
+    "query": "Who was the first man to step on the Moon?",
+    "type": "novel"
+  },
+  {
+    "query": "Do I have to pay to park my car at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "When do we have the next all-hands?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the largest lake in North America?",
+    "type": "novel"
+  },
+  {
+    "query": "Is remote work allowed?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the capital of Sweden?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the maternity leave policy?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the largest land mammal?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the company core values?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain the vacation policy.",
+    "type": "exact"
+  },
+  {
+    "query": "Reserve a meeting space instructions.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How does an engine cooling system work?",
+    "type": "novel"
+  },
+  {
+    "query": "Where can I refer someone for a job?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a barcode scanner work?",
+    "type": "novel"
+  },
+  {
+    "query": "Who invented the printing press?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Sweden?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the definition of a CPU?",
+    "type": "novel"
+  },
+  {
+    "query": "What benefits or perks offer employee discounts?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who was the first man to step on the Moon?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of Canada?",
+    "type": "novel"
+  },
+  {
+    "query": "What are the working hours?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the square root of 144?",
+    "type": "novel"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the main ingredient in bread?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I schedule a meeting room in Outlook?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do guests sign in at the office?",
+    "type": "semantic"
+  },
+  {
+    "query": "Request new IT equipment process.",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the currency of the United Kingdom?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I request vacation time?",
+    "type": "semantic"
+  },
+  {
+    "query": "How many seconds are in an hour?",
+    "type": "novel"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "Where is the headquarters of the company?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I refer a candidate for a job opening?",
+    "type": "exact"
+  },
+  {
+    "query": "Explain our remote working guidelines.",
+    "type": "semantic"
+  },
+  {
+    "query": "How do airplanes fly?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get free coffee at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the process to claim business expenses?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the current Prime Minister of Canada?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the remote work policy?",
+    "type": "exact"
+  },
+  {
+    "query": "How do I register for health insurance?",
+    "type": "exact"
+  },
+  {
+    "query": "Who wrote the play Hamlet?",
+    "type": "novel"
+  },
+  {
+    "query": "Is there a company policy on posting online?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the employee referral process?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is parking free at the office?",
+    "type": "exact"
+  },
+  {
+    "query": "How are travel costs reimbursed?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the fastest animal on land?",
+    "type": "novel"
+  },
+  {
+    "query": "Do we get free coffee at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the company policy on travel expenses?",
+    "type": "exact"
+  },
+  {
+    "query": "What are the rules for WFH?",
+    "type": "semantic"
+  },
+  {
+    "query": "What are the rules for posting on personal social media?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who is the author of The Great Gatsby?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the office dress code?",
+    "type": "exact"
+  },
+  {
+    "query": "Do we have to pay for coffee?",
+    "type": "semantic"
+  },
+  {
+    "query": "Is coffee free at the cafeteria?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the capital of Portugal?",
+    "type": "novel"
+  },
+  {
+    "query": "How do I apply for maternity leave?",
+    "type": "semantic"
+  },
+  {
+    "query": "Do we get free parking passes?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the fastest animal on land?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the capital of China?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the largest planet in our solar system?",
+    "type": "novel"
+  },
+  {
+    "query": "Explain the business travel policy.",
+    "type": "semantic"
+  },
+  {
+    "query": "When is the next company all-hands meeting?",
+    "type": "exact"
+  },
+  {
+    "query": "Where can I change my account password?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I submit an expense report?",
+    "type": "exact"
+  },
+  {
+    "query": "Do I have to pay to park my car at work?",
+    "type": "semantic"
+  },
+  {
+    "query": "What is the performance review process?",
+    "type": "exact"
+  },
+  {
+    "query": "Who leads the Human Resources department?",
+    "type": "semantic"
+  },
+  {
+    "query": "Who invented the steam engine?",
+    "type": "novel"
+  },
+  {
+    "query": "Who works in engineering?",
+    "type": "semantic"
+  },
+  {
+    "query": "How do I book a meeting room?",
+    "type": "exact"
+  },
+  {
+    "query": "What is the currency of South Africa?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the largest island in the world?",
+    "type": "novel"
+  },
+  {
+    "query": "Tell me about the engineering team.",
+    "type": "exact"
+  },
+  {
+    "query": "What is the boiling point of water in Celsius?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the largest planet in our solar system?",
+    "type": "novel"
+  },
+  {
+    "query": "Who discovered gravity?",
+    "type": "novel"
+  },
+  {
+    "query": "What is the address of the company headquarters?",
+    "type": "semantic"
+  },
+  {
+    "query": "How does a solar panel generate electricity?",
+    "type": "novel"
+  }
+]

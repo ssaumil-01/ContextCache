@@ -1,0 +1,439 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "datasource": {
+          "type": "datasource",
+          "uid": "-- Grafana --"
+        },
+        "enable": true,
+        "hide": true,
+        "name": "Annotations & Alerts",
+        "type": "dashboard"
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 0,
+  "id": null,
+  "uid": "rag_cache_perf",
+  "links": [],
+  "liveNow": false,
+  "panels": [
+    {
+      "type": "stat",
+      "title": "L1 Hit Rate (1m)",
+      "id": 1,
+      "gridPos": {"h": 4, "w": 4, "x": 0, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "(sum(rate(rag_cache_l1_hits_total[1m])) or vector(0)) / ((sum(rate(rag_cache_l1_hits_total[1m])) + sum(rate(rag_cache_l1_misses_total[1m]))) or vector(1))",
+          "refId": "A",
+          "instant": true
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "color": {"mode": "thresholds"},
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"value": null, "color": "red"},
+              {"value": 0.5, "color": "orange"},
+              {"value": 0.8, "color": "green"}
+            ]
+          }
+        }
+      },
+      "options": {
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "valueAndName"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "L2 Hit Rate (1m)",
+      "id": 2,
+      "gridPos": {"h": 4, "w": 4, "x": 4, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "(sum(rate(rag_cache_l2_hits_total[1m])) or vector(0)) / ((sum(rate(rag_cache_l2_hits_total[1m])) + sum(rate(rag_cache_l2_misses_total[1m]))) or vector(1))",
+          "refId": "A",
+          "instant": true
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "color": {"mode": "thresholds"},
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"value": null, "color": "red"},
+              {"value": 0.5, "color": "orange"},
+              {"value": 0.7, "color": "green"}
+            ]
+          }
+        }
+      },
+      "options": {
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "valueAndName"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Cache Miss Rate (1m)",
+      "id": 3,
+      "gridPos": {"h": 4, "w": 4, "x": 8, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "(sum(rate(rag_cache_l2_misses_total[1m])) or vector(0)) / ((sum(rate(rag_cache_l1_hits_total[1m])) + sum(rate(rag_cache_l2_hits_total[1m])) + sum(rate(rag_cache_l2_misses_total[1m]))) or vector(1))",
+          "refId": "A",
+          "instant": true
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "percentunit",
+          "color": {"mode": "thresholds"},
+          "thresholds": {
+            "mode": "absolute",
+            "steps": [
+              {"value": null, "color": "green"},
+              {"value": 0.3, "color": "orange"},
+              {"value": 0.5, "color": "red"}
+            ]
+          }
+        }
+      },
+      "options": {
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "valueAndName"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "LLM Calls Saved",
+      "id": 4,
+      "gridPos": {"h": 4, "w": 6, "x": 12, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rag_cache_llm_calls_saved_total) or vector(0)",
+          "refId": "A",
+          "instant": true
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode": "fixed", "fixedColor": "light-blue"},
+          "mappings": []
+        }
+      },
+      "options": {
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "value"
+      }
+    },
+    {
+      "type": "stat",
+      "title": "Retriever Calls Saved",
+      "id": 5,
+      "gridPos": {"h": 4, "w": 6, "x": 18, "y": 0},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rag_cache_retriever_calls_saved_total) or vector(0)",
+          "refId": "A",
+          "instant": true
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "color": {"mode": "fixed", "fixedColor": "cyan"},
+          "mappings": []
+        }
+      },
+      "options": {
+        "colorMode": "value",
+        "graphMode": "none",
+        "justifyMode": "auto",
+        "textMode": "value"
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Average Request Latency by Cache Status (1m Avg)",
+      "id": 6,
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 4},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_total_request_latency_seconds_sum[1m])) by (cache_hit) / sum(rate(rag_cache_total_request_latency_seconds_count[1m])) by (cache_hit)",
+          "refId": "A",
+          "legendFormat": "Cache Hit: {{cache_hit}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "smooth"
+          }
+        }
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Component Latency Breakdown (1m Avg)",
+      "id": 7,
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 4},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_faiss_search_latency_seconds_sum[1m])) / sum(rate(rag_cache_faiss_search_latency_seconds_count[1m]))",
+          "refId": "FAISS",
+          "legendFormat": "FAISS Search"
+        },
+        {
+          "expr": "sum(rate(rag_cache_embedding_latency_seconds_sum[1m])) / sum(rate(rag_cache_embedding_latency_seconds_count[1m]))",
+          "refId": "Embedding",
+          "legendFormat": "Embedding"
+        },
+        {
+          "expr": "sum(rate(rag_cache_decision_engine_latency_seconds_sum[1m])) / sum(rate(rag_cache_decision_engine_latency_seconds_count[1m]))",
+          "refId": "DecisionEngine",
+          "legendFormat": "Decision Engine"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "smooth"
+          }
+        }
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Query Throughput (Hits vs Misses)",
+      "id": 8,
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 12},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_l1_hits_total[1m])) or vector(0)",
+          "refId": "L1Hits",
+          "legendFormat": "L1 Hits"
+        },
+        {
+          "expr": "sum(rate(rag_cache_l2_hits_total[1m])) or vector(0)",
+          "refId": "L2Hits",
+          "legendFormat": "L2 Hits"
+        },
+        {
+          "expr": "sum(rate(rag_cache_l2_misses_total[1m])) or vector(0)",
+          "refId": "Misses",
+          "legendFormat": "Total Misses"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ops",
+          "custom": {
+            "drawStyle": "line"
+          }
+        }
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Redis Latency by Operation (1m Avg)",
+      "id": 9,
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 12},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_redis_latency_seconds_sum[1m])) by (operation) / sum(rate(rag_cache_redis_latency_seconds_count[1m])) by (operation)",
+          "refId": "Redis",
+          "legendFormat": "Redis: {{operation}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "s",
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "smooth"
+          }
+        }
+      }
+    },
+    {
+      "type": "piechart",
+      "title": "Cache Hit Source (1m)",
+      "id": 10,
+      "gridPos": {"h": 8, "w": 8, "x": 0, "y": 20},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_l1_hits_total[1m])) or vector(0)",
+          "refId": "L1Hits",
+          "legendFormat": "L1 Hits"
+        },
+        {
+          "expr": "sum(rate(rag_cache_l2_hits_total[1m])) or vector(0)",
+          "refId": "L2Hits",
+          "legendFormat": "L2 Hits"
+        },
+        {
+          "expr": "sum(rate(rag_cache_l2_misses_total[1m])) or vector(0)",
+          "refId": "Misses",
+          "legendFormat": "Misses"
+        }
+      ],
+      "options": {
+        "reduceOptions": {
+          "values": false,
+          "calcs": ["lastNotNull"],
+          "fields": ""
+        },
+        "pieType": "pie",
+        "displayLabels": ["percent", "name"],
+        "legend": {
+          "displayMode": "list",
+          "placement": "bottom"
+        }
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Decision Engine Reject Reasons (1m Rate)",
+      "id": 11,
+      "gridPos": {"h": 8, "w": 16, "x": 8, "y": 20},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_decision_engine_rejections_total[1m])) by (reason)",
+          "refId": "A",
+          "legendFormat": "{{reason}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ops",
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "smooth"
+          }
+        }
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Tenant Traffic Throughput (1m Rate)",
+      "id": 12,
+      "gridPos": {"h": 8, "w": 12, "x": 0, "y": 28},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "sum(rate(rag_cache_total_request_latency_seconds_count[1m])) by (tenant_id)",
+          "refId": "A",
+          "legendFormat": "Tenant: {{tenant_id}}"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "unit": "ops",
+          "custom": {
+            "drawStyle": "line",
+            "lineInterpolation": "smooth"
+          }
+        }
+      }
+    },
+    {
+      "type": "timeseries",
+      "title": "Cache Size & Memory Footprint",
+      "id": 13,
+      "gridPos": {"h": 8, "w": 12, "x": 12, "y": 28},
+      "datasource": {"type": "prometheus", "uid": "prometheus_ds"},
+      "targets": [
+        {
+          "expr": "rag_cache_entries_total",
+          "refId": "Entries",
+          "legendFormat": "Redis Keys Count"
+        },
+        {
+          "expr": "rag_cache_faiss_vectors_total",
+          "refId": "Vectors",
+          "legendFormat": "FAISS Vectors Count"
+        },
+        {
+          "expr": "rag_cache_redis_memory_bytes",
+          "refId": "Memory",
+          "legendFormat": "Redis Used Memory"
+        }
+      ],
+      "fieldConfig": {
+        "defaults": {
+          "custom": {
+            "drawStyle": "line"
+          }
+        },
+        "overrides": [
+          {
+            "matcher": {
+              "id": "byName",
+              "options": "Redis Used Memory"
+            },
+            "properties": [
+              {
+                "id": "unit",
+                "value": "decbytes"
+              },
+              {
+                "id": "custom.axisPlacement",
+                "value": "right"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "refresh": "5s",
+  "schemaVersion": 38,
+  "style": "dark",
+  "tags": ["rag-cache"],
+  "templating": {
+    "list": []
+  },
+  "time": {
+    "from": "now-5m",
+    "to": "now"
+  },
+  "timepicker": {},
+  "timezone": "",
+  "title": "ContextCache Performance Dashboard",
+  "version": 1,
+  "weekStart": ""
+}
